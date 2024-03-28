@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Coffe Orders</string>
+    <string name="app_name">Coffee Orders</string>
+    <string name="logo_name">Coffee Logo</string>
+    <string name="welcome">HELLO FRIEND!</string>
+    <string name="hint_name">Enter your name: </string>
+    <string name="hint_password">Enter your password: </string>
+    <string name="button_enter">Create order</string>
 </resources>
