@@ -5,4 +5,31 @@
     <string name="hint_name">Enter your name: </string>
     <string name="hint_password">Enter your password: </string>
     <string name="button_enter">Create order</string>
+    <string name="toast_text_empty_fields">All fields must be filled!</string>
+    <string name="question_about_order">Hello Customer. What would you like to order?</string>
+    <string name="teaButton">TEA</string>
+    <string name="coffeeButton">COFFEE</string>
+    <string name="question_about_addition">What would you like to add to your drink?</string>
+    <string name="checkbox_milk">Milk</string>
+    <string name="checkbox_sugar">Sugar</string>
+    <string name="checkbox_lemon">Lemon</string>
+    <string name="checkbox_cream">Cream</string>
+    <string name="question_about_drink">Select the type of drink you have chosen:</string>
+    <string-array name="coffee_types">
+        <item>Caffè Latte</item>
+        <item>Frappuccino</item>
+        <item>Caramel Macchiato</item>
+        <item>Cappuccino</item>
+        <item>Americano</item>
+        <item>Espresso</item>
+    </string-array>
+    <string-array name="tea_types">
+        <item>Chai Tea</item>
+        <item>Mint Herbal Blend Tea</item>
+        <item>English Breakfast Tea</item>
+        <item>Matcha Green Tea Latte</item>
+        <item>Jasmine Pearls Tea</item>
+        <item>Chamomile Herbal Blend Tea</item>
+    </string-array>
+    <string name="button_send_order">Button to send order</string>
 </resources>

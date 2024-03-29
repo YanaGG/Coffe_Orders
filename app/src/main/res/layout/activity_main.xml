@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageViewLogo"
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="0dp"
@@ -17,11 +17,10 @@
         app:srcCompat="@drawable/starbucks" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewWelcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_margin="8dp"
         android:gravity="center"
         android:text="@string/welcome"
         android:textColor="@color/brown"
@@ -29,7 +28,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextClientName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -38,7 +37,7 @@
         android:textSize="16sp" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextClientPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -47,13 +46,17 @@
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonCreateOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="36dp"
+        android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="@string/button_enter"
         android:textSize="14sp"
+        android:onClick="CreateOrderOnClick"
         app:backgroundTint="#966B6B" />
 
 </LinearLayout>
