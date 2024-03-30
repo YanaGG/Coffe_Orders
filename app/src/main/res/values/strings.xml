@@ -6,15 +6,15 @@
     <string name="hint_password">Enter your password: </string>
     <string name="button_enter">Create order</string>
     <string name="toast_text_empty_fields">All fields must be filled!</string>
-    <string name="question_about_order">Hello Customer. What would you like to order?</string>
+    <string name="question_about_order">Hello, %s! What would you like to ORDER?</string>
     <string name="teaButton">TEA</string>
     <string name="coffeeButton">COFFEE</string>
-    <string name="question_about_addition">What would you like to add to your drink?</string>
+    <string name="question_about_addition">What would you like to add to your %s?</string>
     <string name="checkbox_milk">Milk</string>
     <string name="checkbox_sugar">Sugar</string>
     <string name="checkbox_lemon">Lemon</string>
     <string name="checkbox_cream">Cream</string>
-    <string name="question_about_drink">Select the type of drink you have chosen:</string>
+    <string name="question_about_drink">Select the TYPE OF DRINK you have chosen:</string>
     <string-array name="coffee_types">
         <item>Caffè Latte</item>
         <item>Frappuccino</item>
@@ -32,4 +32,8 @@
         <item>Chamomile Herbal Blend Tea</item>
     </string-array>
     <string name="button_send_order">Button to send order</string>
+    <string name="default_name">Customer</string>
+    <string name="default_password">Password</string>
+    <string name="order">Name: %s\nPassword: %s\nDrink: %s\nDrink Type: %s\n</string>
+    <string name="additions">Additions:\n</string>
 </resources>

@@ -31,19 +31,25 @@
         app:layout_constraintTop_toBottomOf="@id/textViewAboutOrder">
 
         <RadioButton
+            android:id="@+id/radioButtonTea"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:checked="true"
             android:textColor="@color/orange"
-            android:text="@string/teaButton" />
+            android:text="@string/teaButton"
+            android:onClick="changeDrinkOnClick"
+            />
 
         <RadioButton
+            android:id="@+id/radioButtonCoffee"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:textColor="@color/orange"
-            android:text="@string/coffeeButton" />
+            android:text="@string/coffeeButton"
+            android:onClick="changeDrinkOnClick"
+            />
 
     </RadioGroup>
 
@@ -148,6 +154,7 @@
         android:layout_margin="8dp"
         android:contentDescription="@string/button_send_order"
         android:src="@drawable/buttonbutton"
+        android:onClick="sendOrderOnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
